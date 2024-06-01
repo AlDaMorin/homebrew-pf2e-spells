@@ -1,0 +1,38 @@
+{
+  "id": "melis-homebrew-pf2e-spells",
+  "title": "Meli's Homebrew PF2e Spells",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "A collection of homebrew spells for PF2e.",
+  "authors": [
+    {
+      "name": "Alex",
+      "discord": "melionito"
+    }
+  ],
+  "packs": [
+    {
+      "name": "melis-homebrew-pf2e-spells",
+      "label": "Meli's Homebrew PF2e Spells",
+      "path": "packs/melis-homebrew-pf2e-spells",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}
